@@ -22,6 +22,38 @@ const FRAMEWORKS = [
 
 const PROJECTS = [
   {
+    id: "uobong",
+    title: "UOBONG.COM (MOUNTAIN PROJECT)",
+    type: "MOBILE",
+    category: "mobile",
+    overview:
+      " Cross-platform outdoor adventure app where users complete location based quests, track hikes with background GPS, earn achievements, and join social guilds. Built as a Turborepo monorepo with React Native (Expo), Next.js, and an admin dashboard.",
+    features: [
+      "cross-platform mobile app (iOS/Android) using Expo SDK 54, React Native New Architecture, React 19, and TypeScript",
+      "Quest & target achievement flows with background geofencing, offline-first local storage, and backend sync when connectivity returns",
+      "Activity recording screens: live GPS tracking, GPX export/upload, map overlays (Naver Maps), distance/elevation stats, and shareable record cards",
+      "Social & gamification screens: user profiles, followers, reviews, badges/titles/challenges, weekly targets, and achievement celebrations",
+    ],
+    tech: ["eact Native", "TypeScript", "Expo", "NativeWind / Tailwind CSS", "Expo", " SQLite (Drizzle ORM)", "Jest"],
+  },
+  {
+    id: "dsa",
+    title: " DSA ADMIN PLATFORM (꼼꼼이)",
+    type: "WEB",
+    category: "web",
+    overview:
+      " DSA Admin Platform (꼼꼼이) — Construction Safety Technical Guidance SaaS & Admin Platform",
+    features: [
+      "Multi-tenant SaaS platform for construction safety technical guidance organizations, serving system admins, org managers, field instructors, and external clients",
+      "Monorepo with NestJS API (JWT, BullMQ job queues, Swagger) and React/Vite frontend (570+ components, role-based routing) on Supabase",
+      "Project management, technical guidance scheduling, 13page compliance report generation, risk assessment matrices, and hazard inspection tooling",
+      "Toss Payments for subscription/seat billing and G2B API for public bid notice synchronization",
+      "Nginx reverse proxy with HTTPS/HTTP2/SSL",
+      "Signup flows, invite-based project joining, document exports, construction management, KPI dashboards, and mobile WebView (responsive) navigation",
+    ],
+    tech: ["React", "TypeScript", "NestJS", "Supabase", "Expo", "PostgreSQL", "Tailwind CSS", "Toss Payment"],
+  },
+  {
     id: "avatar-backend",
     title: "Avatar Tour System — Back-end",
     type: "BACKEND",
