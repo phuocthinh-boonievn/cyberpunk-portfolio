@@ -34,7 +34,7 @@ const PROJECTS = [
       "Activity recording screens: live GPS tracking, GPX export/upload, map overlays (Naver Maps), distance/elevation stats, and shareable record cards",
       "Social & gamification screens: user profiles, followers, reviews, badges/titles/challenges, weekly targets, and achievement celebrations",
     ],
-    tech: ["eact Native", "TypeScript", "Expo", "NativeWind / Tailwind CSS", "Expo", " SQLite (Drizzle ORM)", "Jest"],
+    tech: ["React Native", "TypeScript", "Expo", "NativeWind / Tailwind CSS", "Expo", " SQLite (Drizzle ORM)", "Jest"],
   },
   {
     id: "dsa",
