@@ -1,0 +1,13 @@
+{
+  "name": "cyberpunk-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Neural Link — Cyberpunk Portfolio (static HTML/CSS/JS)",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve . -l 8080"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
